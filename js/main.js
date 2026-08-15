@@ -15,7 +15,7 @@ function renderPackageCards(packages, containerId) {
           <span class="package-card__duration">${pkg.duration}</span>
           <span class="package-card__price">${pkg.price}</span>
         </div>
-        <a href="#booking" class="package-card__link">Enquire Now</a>
+        <a href="${pkg.url}" class="package-card__link">View Details</a>
       </div>
     </article>
   `
@@ -130,8 +130,6 @@ function initBookingForm() {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderPackageCards(DESTINATIONS, "destinationsGrid");
-  renderPackageCards(DARSHAN_PACKAGES, "darshanGrid");
-  renderPackageCards(NEARBY_PACKAGES, "nearbyGrid");
   renderAttractions();
   renderGallery();
   initHeroSlider();

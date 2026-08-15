@@ -1,14 +1,38 @@
 function getBasePath() {
-  return window.location.pathname.includes("/attractions/") ? ".." : ".";
+  const path = window.location.pathname;
+  if (path.includes("/attractions/") || path.includes("/tours/")) return "..";
+  return ".";
+}
+
+const SITE = {
+  name: "Kashi Tourist Service",
+  email: "kashitouristservice@gmail.com",
+  phones: [
+    { display: "+91 95550 97512", tel: "+919555097512" },
+    { display: "+91 93358 90906", tel: "+919335890906" },
+  ],
+};
+
+function renderLogo(base, footer = false) {
+  const home = `${base}/index.html`;
+  const className = footer ? "logo logo--footer" : "logo";
+  return `
+    <a href="${home}" class="${className}">
+      <img src="${base}/assets/logo.png" alt="${SITE.name}" class="logo__img" />
+    </a>
+  `;
 }
 
 function renderTopBar(base) {
+  const phones = SITE.phones
+    .map((p) => `<a href="tel:${p.tel}">📞 ${p.display}</a>`)
+    .join("");
   return `
     <div class="top-bar">
       <div class="container top-bar__inner">
         <div class="top-bar__contact">
-          <a href="tel:+919876543210">📞 +91 98765 43210</a>
-          <a href="mailto:info@ktours.com">✉ info@ktours.com</a>
+          ${phones}
+          <a href="mailto:${SITE.email}">✉ ${SITE.email}</a>
         </div>
         <div class="top-bar__social">
           <a href="#" aria-label="Facebook">Facebook</a>
@@ -26,15 +50,12 @@ function renderHeader(base, activePage) {
   return `
     <header class="header" id="header">
       <div class="container header__inner">
-        <a href="${home}" class="logo">
-          <span class="logo__icon">🕉</span>
-          <span class="logo__text">k<span>Tours</span></span>
-        </a>
+        ${renderLogo(base)}
         <nav class="nav" id="nav">
           <a href="${prefix}#home">Home</a>
           <a href="${prefix}#about">About</a>
           <a href="${prefix}#destinations">Destinations</a>
-          <a href="${prefix}#packages">Packages</a>
+          <a href="${prefix}#destinations"${activePage === "tours" ? ' class="nav__active"' : ""}>Tours</a>
           <a href="${prefix}#attractions"${activePage === "attractions" ? ' class="nav__active"' : ""}>Attractions</a>
           <a href="${prefix}#gallery">Gallery</a>
           <a href="${prefix}#booking" class="nav__cta">Book Now</a>
@@ -53,10 +74,7 @@ function renderFooter(base) {
     <footer class="footer">
       <div class="container footer__grid">
         <div class="footer__brand">
-          <a href="${home}" class="logo logo--footer">
-            <span class="logo__icon">🕉</span>
-            <span class="logo__text">k<span>Tours</span></span>
-          </a>
+          ${renderLogo(base, true)}
           <p>Your trusted partner for spiritual journeys, customized tours, and premium travel services in Varanasi and beyond.</p>
         </div>
         <div>
@@ -64,31 +82,31 @@ function renderFooter(base) {
           <ul>
             <li><a href="${home}#about">About Varanasi</a></li>
             <li><a href="${home}#destinations">Destinations</a></li>
-            <li><a href="${home}#packages">Darshan Packages</a></li>
+            <li><a href="${home}#destinations">Popular Destinations</a></li>
             <li><a href="${home}#gallery">Gallery</a></li>
           </ul>
         </div>
         <div>
-          <h4>Attractions</h4>
+          <h4>Popular Tours</h4>
           <ul>
-            <li><a href="${base}/attractions/varanasi-ghat.html">Varanasi Ghats</a></li>
-            <li><a href="${base}/attractions/ganga-aarti.html">Ganga Aarti</a></li>
-            <li><a href="${base}/attractions/temple-of-varanasi.html">Temples</a></li>
-            <li><a href="${base}/attractions/places-of-interest.html">Places of Interest</a></li>
+            <li><a href="${base}/tours/varanasi-tour.html">Varanasi Tour</a></li>
+            <li><a href="${base}/tours/varanasi-ayodhya-tour.html">Varanasi – Ayodhya</a></li>
+            <li><a href="${base}/tours/varanasi-ayodhya-prayag-tour.html">Varanasi – Ayodhya – Prayag</a></li>
+            <li><a href="${home}#destinations">All Packages</a></li>
           </ul>
         </div>
         <div>
           <h4>Contact Us</h4>
           <ul class="footer__contact">
             <li>📍 Varanasi, Uttar Pradesh, India</li>
-            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
-            <li><a href="mailto:info@ktours.com">info@ktours.com</a></li>
+            ${SITE.phones.map((p) => `<li><a href="tel:${p.tel}">${p.display}</a></li>`).join("")}
+            <li><a href="mailto:${SITE.email}">${SITE.email}</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <div class="container">
-          <p>&copy; 2026 kTours. All rights reserved.</p>
+          <p>&copy; 2026 ${SITE.name}. All rights reserved.</p>
         </div>
       </div>
     </footer>

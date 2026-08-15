@@ -76,7 +76,7 @@ function initAttractionPage(slug) {
     return;
   }
 
-  document.title = `${attraction.title} | kTours – Varanasi Travel`;
+  document.title = `${attraction.title} | ${SITE.name}`;
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.content = attraction.desc;
 
