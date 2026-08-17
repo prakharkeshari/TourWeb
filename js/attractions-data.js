@@ -4,8 +4,8 @@ const ATTRACTIONS = [
     title: "Varanasi Ghats",
     subtitle: "Ghat Of Varanasi",
     desc: "84 ghats along the Ganga, each with its own story and ritual.",
-    image: "https://images.unsplash.com/photo-1561361513-2d2a49e263bd?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1561361513-2d2a49e263bd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1627938823193-fd13c1c867dd?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://images.unsplash.com/photo-1627938823193-fd13c1c867dd?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "attractions/varanasi-ghat.html",
     sections: [
       {
@@ -65,8 +65,8 @@ const ATTRACTIONS = [
     title: "Ganga Aarti",
     subtitle: "Ganga Aarti",
     desc: "The mesmerizing evening aarti at Dashashwamedh Ghat.",
-    image: "https://images.unsplash.com/photo-1585139227112-575071e4fe79?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1585139227112-575071e4fe79?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1746809049966-d9d01dd2469f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://plus.unsplash.com/premium_photo-1746809049966-d9d01dd2469f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "attractions/ganga-aarti.html",
     sections: [
       {
@@ -114,8 +114,8 @@ const ATTRACTIONS = [
     title: "Temples of Varanasi",
     subtitle: "Important Temples Of Varanasi",
     desc: "Kashi Vishwanath, Sankat Mochan, Durga Temple & more.",
-    image: "https://images.unsplash.com/photo-1524492412937-280b9fd8997e?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1524492412937-280b9fd8997e?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1697730433023-c5fcff0506ee?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://plus.unsplash.com/premium_photo-1697730433023-c5fcff0506ee?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "attractions/temple-of-varanasi.html",
     sections: [
       {
@@ -198,8 +198,8 @@ const ATTRACTIONS = [
     title: "Shopping",
     subtitle: "Shopping",
     desc: "Banarasi silk, handicrafts, and spiritual souvenirs.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1562280963-8a5475740a10?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://images.unsplash.com/photo-1562280963-8a5475740a10?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "attractions/shopping.html",
     sections: [
       {
@@ -234,8 +234,8 @@ const ATTRACTIONS = [
     title: "Places of Interest",
     subtitle: "Places Of Interest",
     desc: "Sarnath, Ramnagar Fort, Bharat Mata Temple & beyond.",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1769893416672-c67327cdadac?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://plus.unsplash.com/premium_photo-1769893416672-c67327cdadac?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "attractions/places-of-interest.html",
     sections: [
       {

@@ -8,8 +8,8 @@ const TOURS = [
     destination: "Varanasi, Uttar Pradesh",
     price: "₹9,999",
     priceLabel: "Starting From ₹9,999",
-    image: "https://images.unsplash.com/photo-1561361513-2d2a49e263bd?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1561361513-2d2a49e263bd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1558184525-2218e8c34914?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://images.unsplash.com/photo-1558184525-2218e8c34914?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "tours/varanasi-tour.html",
     intro:
       "Varanasi के इस 3 Days / 2 Nights Tour Package में आपको Spirituality, Culture और Heritage का पूरा अनुभव मिलेगा। इस पैकेज में Temple Darshan, Ganga Aarti, Boat Ride, Sarnath Visit और Local Market Experience शामिल है।",
@@ -86,8 +86,8 @@ const TOURS = [
     destination: "Varanasi & Ayodhya, Uttar Pradesh",
     price: "₹14,999",
     priceLabel: "Starting From ₹14,999",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1726501604891-19fb7f7cd37b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://images.unsplash.com/photo-1726501604891-19fb7f7cd37b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "tours/varanasi-ayodhya-tour.html",
     intro:
       "इस 4 Days / 3 Nights Tour Package में Varanasi की Spiritual Journey के साथ Ayodhya — Lord Rama की Janmabhoomi का दिव्य अनुभव शामिल है। Temple Darshan, Ganga Aarti, Sarnath Visit और Ayodhya Ram Mandir Darshan इस पैकेज की मुख्य highlights हैं।",
@@ -169,8 +169,8 @@ const TOURS = [
     destination: "Varanasi, Ayodhya & Prayagraj, Uttar Pradesh",
     price: "₹19,999",
     priceLabel: "Starting From ₹19,999",
-    image: "https://images.unsplash.com/photo-1585139227112-575071e4fe79?w=1200&q=80",
-    cardImage: "https://images.unsplash.com/photo-1585139227112-575071e4fe79?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1742316963892-2b6fee25dfc5?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cardImage: "https://images.unsplash.com/photo-1742316963892-2b6fee25dfc5?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     url: "tours/varanasi-ayodhya-prayag-tour.html",
     intro:
       "यह 5 Days / 4 Nights Tour Package Uttar Pradesh की तीन सबसे पवित्र cities — Varanasi, Ayodhya और Prayagraj (Allahabad) का complete spiritual experience देता है। Kashi Darshan, Ram Janmabhoomi और Triveni Sangam Snan इस यात्रा की मुख्य विशेषताएँ हैं।",
